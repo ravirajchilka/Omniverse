@@ -1,0 +1,47 @@
+**Viewport Navigation and Camera Controls**
+
+- **Zoom In/Out:**  
+  - Use the **Scroll Wheel** on your mouse.  
+  - Or hold **Alt (Option) + Right Mouse Button (RMB)** and drag to zoom.
+
+- **Orbit (Rotate View):**  
+  - Hold **Alt + Left Mouse Button (LMB)** and drag to orbit around the viewport center.
+
+- **Pan:**  
+  - Hold the **Middle Mouse Button (MMB)** and drag to pan the view.
+
+- **Move Camera (WASD or Arrow Keys):**  
+  - Hold **RMB** and press:  
+    - **W** or **Up Arrow** to move forward  
+    - **S** or **Down Arrow** to move backward  
+    - **A** or **Left Arrow** to move left  
+    - **D** or **Right Arrow** to move right  
+    - **Q** or **Page Up** to move up  
+    - **E** or **Page Down** to move down  
+  - Hold **Shift** with these to move at double speed.  
+  - Hold **Ctrl** with these to move at half speed.
+
+- **Pivot Camera:**  
+  - Hold **RMB** and move mouse to pivot (look around).
+
+**Object Selection and Focus**
+
+- **Select Object:** Left Mouse Button (LMB) click.  
+- **Deselect All:** Press **Escape**.  
+- **Focus on Selected Object:** Select object(s) and press **F**.  
+- **Focus on All Objects:** Deselect all and press **F**.
+
+**Asset Manipulation**
+
+- **Delete Selected Asset:** Press **Delete** key.  
+- **Duplicate Asset:** Press **Ctrl + D**.  
+- **Group Selected Assets:** Press **Ctrl + G**.  
+- **Toggle Visibility of Selected Asset:** Press **H**.
+
+**Additional Useful Shortcuts**
+
+- **Show/Hide Grid and HUD:** Shift + H  
+- **Toggle UI Visibility:** F7  
+- **Toggle Full Screen:** F11  
+- **Capture Screenshot:** F10
+
