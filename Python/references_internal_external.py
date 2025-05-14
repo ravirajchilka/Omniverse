@@ -16,10 +16,7 @@ usd_create_path = "E:/Software_Projects/openUSD_Isaac_sim_files/Box/blocks1.usda
 
 stage = Usd.Stage.CreateNew(usd_create_path)
 block1 = UsdGeom.Xform.Define(stage, "/World/Block1")
-external_reference(
-    block1.GetPrim(),
-    "E:/Software_Projects/openUSD_Isaac_sim_files/Box/Assets"   
-)
+external_reference(block1.GetPrim(),"./Assets") # relative path
 
 stage.Save()
 
