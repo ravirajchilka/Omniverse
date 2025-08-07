@@ -1,5 +1,5 @@
 import omni.usd
-from pxr import UsdPhysics, Sdf
+from pxr import UsdPhysics, Sdf, PhysxSchema
 
 
 stage = omni.usd.get_context().get_stage()
@@ -19,7 +19,10 @@ for path in prim_paths_ar:
 
     # apply kinematic rigid body
     UsdPhysics.RigidBodyAPI.Get(stage,"/World/asm/mount").CreateKinematicEnabledAttr().Set(True)
-        
+
+    # ensures that the triangle mesh are removed
+    if prim.HasAPI(PhysxSchema.PhysxTriangleMeshCollisionAPI):
+        prim.RemoveAPI(PhysxSchema.PhysxTriangleMeshCollisionAPI)
 
 
 # import omni.usd
